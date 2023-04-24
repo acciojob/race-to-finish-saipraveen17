@@ -9,7 +9,7 @@ window.promises = [
 Promise.any(promises)
   .then(result => {
     const outputDiv = document.getElementById('output');
-    outputDiv.innerHTML = `First promise to resolve: ${result}`;
+    outputDiv.innerHTML = result;
   });
 
 // Do not change the code above this
